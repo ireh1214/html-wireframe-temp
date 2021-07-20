@@ -1,0 +1,267 @@
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media all and (min-width: 320px) and (max-width: 1200px) {
+  .leftBar {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px auto;
+    padding: 0;
+  }
+
+  .leftBar-profile {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    position: relative;
+    top: 64px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .leftBar-profile img {
+    width: 80px;
+    height: 80px;
+    margin: 8px auto;
+  }
+
+  .leftBar h4 {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  .leftBar h4 span {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .leftBar ul hr {
+    display: none;
+  }
+
+  .leftBar ul {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .leftBar ul li {
+    margin: 0 auto;
+    flex-direction: row;
+    width: 140px;
+    height: 24px;
+    border: 1px solid #333;
+    border-radius: 100px;
+    margin: 4px auto;
+  }
+
+  .leftBar ul li a {
+    flex-direction: row;
+    text-align: center;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 768px) {
+  section {
+    width: 100%;
+    margin: 20px auto 80px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rightBar {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rightBar .row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+  }
+
+  .rightBar h4,
+  .rightBar .row .btn {
+    position: relative;
+    top: -12px;
+  }
+
+  .rightBar h4 span {
+    font-weight: 900;
+    color: red;
+  }
+
+  .btn {
+    padding: 4px;
+    font-size: 10px;
+  }
+
+  .rightBar .table {
+    width: 94%;
+    margin: 0 auto;
+  }
+
+  .rightBar .table tr {
+    font-size: 10px;
+    font-weight: 300;
+    align-items: center;
+  }
+
+  .rightBar .table tr td {
+    padding: 8px 8px;
+    line-height: 2.5;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 1200px) {
+  section {
+    width: 100%;
+    margin: 20px auto 80px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rightBar {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rightBar .row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+  }
+
+  .rightBar h4,
+  .rightBar .row .btn {
+    position: relative;
+    top: -12px;
+  }
+
+  .rightBar h4 span {
+    font-weight: 900;
+    color: red;
+  }
+
+  .rightBar .table {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .rightBar .table tr {
+    font-size: 12px;
+    font-weight: 300;
+    align-items: center;
+    margin-top: 20px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  section {
+    width: 1200px;
+    margin: 90px auto;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .leftBar {
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    height: 800px;
+    margin: 0 50px;
+  }
+
+  .leftBar-profile {
+    width: 100%;
+    height: 200px;
+  }
+
+  .leftBar-profile img {
+    width: 100px;
+    height: 100px;
+    margin: 8px auto;
+    background-color: black;
+  }
+
+  .leftBar h4 {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  .leftBar h4 span {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .leftBar ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+
+  .leftBar ul li {
+    width: 80%;
+    height: 20px;
+    margin: 4px auto;
+    line-height: 2.8;
+  }
+
+  .rightBar {
+    width: 900px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rightBar .row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+  }
+
+  .rightBar h4 span {
+    font-weight: 900;
+    color: red;
+  }
+
+  .rightBar .table {
+    width: 880px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .rightBar .table tr {
+    font-size: 13px;
+    font-weight: 300;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .rightBar .table tr td {
+    padding: 8px 8px;
+    line-height: 2.5;
+  }
+}
